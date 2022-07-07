@@ -1,0 +1,48 @@
+<!-- Chapter-5 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    <style>
+        html{
+            /* font-size: 45px; */
+        }
+        .container{
+            /* font-size: 4px; */
+        }
+        .box{
+            /* font-size: 12px; */
+
+            /* em is, parent size * own size, like container * box size  */
+            /* font-size: 3em; */
+
+            /* rem is, html font size 3*, releted to html font size */
+            /* font-size: 3rem; */
+
+            background-color: red;
+        }
+        .box2{
+            background-color: green;
+            /* this functions used, first function see our sereen size then given the height or width  vh means view port height, or vw means view port width */
+            width: 334px;
+            width: 50vw;
+            height: 50vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>This is a paragrape</p>
+        <div class="box">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium doloribus perspiciatis inventore expedita ut maiores? Porro nulla minima fugiat quod incidunt aut assumenda. Fugiat, dolor deleniti. Odit, ratione consectetur incidunt aliquam repellat enim quidem.
+        </div>
+        <div class="box2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, officiis iste? Velit.
+        </div>
+    </div>
+</body>
+</html>

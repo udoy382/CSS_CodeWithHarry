@@ -1,0 +1,56 @@
+<!-- Chapter-8 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforms</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 455px;
+        }
+        .box{
+            border: 2px solid black;
+            /* translate 134px x corner and 56px y corner */
+            /* 45deg are used in rotate, deg meens degree */
+
+            /* transform: translate(134px, 56px) rotate(0.25turn);
+            transform-origin: 0; */
+            
+            /* transform: scale(4, 5); */
+            /* transform: scaleX(8); */
+            /* transform: scaley(8); */
+            
+            /* now word with iamge */
+            display: inline-block;
+            /* transform: translate(134px, 56px); */
+            /* transform: skew(4deg, 6deg); */
+
+            /* 3d transform */
+            /* transform: rotateX(45deg);
+            transform: rotatey(45deg); */
+        }
+
+        .box:hover img{
+            width: 455px;
+        }
+
+        .img{
+            width: 50px;
+            transition-property: width;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="/bg.jpg" alt="Image" width="500px">
+        </div>
+    </div>
+</body>
+</html>

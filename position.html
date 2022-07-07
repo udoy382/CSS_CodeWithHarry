@@ -1,0 +1,89 @@
+<!-- Chapter-5 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positon</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        li{
+            /* display: inline-block;
+            height: 340px;
+            width: 75px; */
+
+            /* list-style: circle; */
+            list-style: square;
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 59px;
+            /* position: sticky; */
+            /* z-index: 1; */
+        }
+        p{
+            text-align: center;
+            border: 2px solid red;
+        }
+        .cotainer{
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            padding: 0 34px;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: yellowgreen;
+            /* position: relative; */
+            /* top: 40px;
+            left: 50px; */
+
+            /* position: absolute; */
+
+            position: fixed;
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(29, 116, 97);
+            /* position: relative; */
+            /* top: 40px;
+            left: 50px; */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Blog</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="cotainer">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet et, minus at corrupti beatae accusantium doloribus. Eligendi minima natus deserunt aliquid, iusto ea asperiores, suscipit quibusdam eaque excepturi incidunt eveniet similique possimus consectetur, distinctio veritatis temporibus sunt fugit perferendis facere.</p>
+        <div class="box">
+            I am a box
+        </div>
+        <div class="box2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit rerum corporis assumenda? Error qui iste et harum earum, impedit dicta, labore atque commodi doloribus tempora mollitia obcaecati, quas voluptate? Suscipit dolorem ex saepe iste.
+        </div>
+    </div>
+    <ul class="sli">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orenge</li>
+    </ul>
+</body>
+</html>
